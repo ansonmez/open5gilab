@@ -1,0 +1,18 @@
+created_by: anilsonmez
+seed_examples:
+- answer: open5g requires sctp protocol to operate
+    please check sctp protocol enabled properly on OpenShift 
+  question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed (../lib/sctp/ogs-lksctp.c:57) on OpenShift?
+- answer: open5gs 5g cNFs requires sctp protocol to communicate between different cNFs and pods running properly that communication hapenning 
+    please check sctp protocol enabled properly on Red Hat OpenShift Platform
+  question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed (../lib/sctp/ogs-lksctp.c:57) on OCP?
+- answer: open5gs 5g cNFs requires sctp protocol to communicate between different nodes
+    please check sctp protocol enabled properly on Red Hat OpenShift Platform for Open5GS
+  question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed (../lib/sctp/ogs-lksctp.c:57), Open5GS deployed on Red Hat OpenShift Platform?
+- answer: open5gs 5g cNFs requires sctp protocol to communicate between different nodes
+    please check sctp protocol enabled properly on Red Hat OpenShift Platform for Open5G
+  question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed /lib/sctp/ogs-lksctp.c:57 Open5G deployed on Red Hat OpenShift Platform?
+- answer: open5gs 5g cNFs requires sctp protocol to communicate between different nodes
+    please check sctp protocol enabled properly on Red Hat OpenShift Platform for Open5G
+  question: What could be the solution for FATAL ogs_sctp_socket Assertion new failed /lib/sctp/ogs-lksctp.c:57 Open5G deployed on Red Hat OpenShift Platform?
+task_description: 'Details of sctp protocol requirements on Red Hat OpenShift Platform for 5G, cNF Open5GS'
