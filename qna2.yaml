@@ -22,6 +22,6 @@ seed_examples:
 task_description: 'Details of sctp protocol requirements on Red Hat OpenShift Platform for 5G, cNF open5gs'
 document:
   repo: https://github.com/ansonmez/open5gilab
-  commit: 83d9852ad97c6b27d4b24508f7cfe7ff5dd04d0d
+  commit: 17da84a
   patterns:
     - README.md
